@@ -1,0 +1,13 @@
+interface data {
+	int code;
+};
+
+structure infodata implements data {
+	char* message;
+};
+int a = 2;
+a += 2;
+a -= 2;
+a *= 2;
+a /= 2;
+a %= 2;
